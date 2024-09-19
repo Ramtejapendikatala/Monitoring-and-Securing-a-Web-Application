@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="CSScode.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="game-options">
+            <button id="person-vs-person">Person vs Person</button>
+            <button id="person-vs-computer">Person vs Computer</button>
+        </div>
+        <div id="game-board" class="game-board" style="display: none;">
+            <!-- Cells of the game board -->
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <button id="restart-button" style="display: none;">Restart Game</button>
+        <p id="status"></p>
+    </div>
+    <script src="javascriptcode.js"></script>
+</body>
+</html>
